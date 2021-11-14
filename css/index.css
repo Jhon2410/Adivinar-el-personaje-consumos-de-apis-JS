@@ -1,0 +1,246 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Frijole', cursive;
+}
+
+.avisoNaruto {
+    background-image: url(https://thumbs.gfycat.com/PlainFriendlyFowl-size_restricted.gif);
+    width: 70%;
+    margin: 40px auto;
+    color: white;
+    text-align: center;
+    text-shadow: 1px 1px black;
+    padding-bottom: 20px;
+}
+
+.otrosModos {
+    width: 70%;
+    margin: 40px auto;
+    color: white;
+    text-align: center;
+    text-shadow: 1px 1px black;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 100%;
+    background: darkred;
+    text-align: center;
+    text-shadow: 1px 1px black;
+    color: white;
+}
+
+.intoDataPlayer {
+    width: 60%;
+    margin: auto;
+    background: whitesmoke;
+    padding: 20px;
+}
+
+.goR {
+    width: 60%;
+    margin: auto;
+    background: whitesmoke;
+    padding: 20px;
+}
+
+.gameover {
+    background: hsla(0, 10%, 96%, 0.712);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.ingresarData {
+    background: hsla(0, 10%, 96%, 0.712);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.resultados {
+    display: grid;
+    width: 90%;
+    margin: 20px auto;
+    grid-template-columns: 50% 50%;
+    text-align: center;
+}
+
+.imagen {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    image-rendering: auto;
+}
+
+.imagen:hover {
+    -webkit-transform: scale(1.07);
+    transform: scale(1.07);
+    transition: 0.4s;
+}
+
+.sss {
+    width: 100%;
+    margin: auto;
+}
+
+.aplication {
+    display: grid;
+    width: 90%;
+    margin: auto;
+    background: whitesmoke;
+    grid-template-columns: 50% 50%;
+}
+
+body {
+    background: #d14a4a;
+}
+
+.dataPlayer {
+    display: grid;
+    grid-template-columns: 40% 20% 20%;
+    padding: 10px 0px;
+    color: rgb(248, 248, 248);
+    text-align: end;
+}
+
+.nombrePokemon {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding: 10px 0px;
+}
+
+.s1 {
+    border-right: 1px solid black;
+}
+
+.contenido {
+    background: #d14a4a;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.green {
+    color: rgb(21, 255, 21);
+    font-size: 20px;
+}
+
+.red {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+.a {
+    display: grid;
+    grid-column: 1/3;
+}
+
+@media (min-width: 700px) {
+    header {
+        display: grid;
+        grid-template-columns: 100%;
+        background: darkred;
+        text-align: center;
+        text-shadow: 1px 1px black;
+        color: white;
+    }
+    .intoDataPlayer {
+        width: 60%;
+        margin: auto;
+        background: whitesmoke;
+        padding: 20px;
+    }
+    .goR {
+        width: 60%;
+        margin: auto;
+        background: whitesmoke;
+        padding: 20px;
+    }
+    .gameover {
+        background: hsla(0, 10%, 96%, 0.712);
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        width: 100%;
+    }
+    .ingresarData {
+        background: hsla(0, 10%, 96%, 0.712);
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        width: 100%;
+    }
+    .resultados {
+        display: grid;
+        width: 80%;
+        margin: 20px auto;
+        grid-template-columns: 50% 50%;
+        text-align: center;
+    }
+    .imagen:hover {
+        -webkit-transform: scale(1.07);
+        transform: scale(1.07);
+        transition: 0.4s;
+    }
+    .sss {
+        width: 80%;
+        margin: auto;
+    }
+    .imagen {
+        width: 100%;
+        max-height: 300px;
+        margin: auto;
+        image-rendering: -webkit-optimize-contrast;
+    }
+    .aplication {
+        display: grid;
+        width: 80%;
+        margin: auto;
+        background: whitesmoke;
+        grid-template-columns: 50% 50%;
+    }
+    body {
+        background: #d14a4a;
+    }
+    .dataPlayer {
+        display: grid;
+        grid-template-columns: 40% 20% 15% 10%;
+        padding: 10px 0px;
+        color: rgb(248, 248, 248);
+        text-align: end;
+    }
+    .nombrePokemon {
+        width: 80%;
+        margin: auto;
+        text-align: center;
+        padding: 10px 0px;
+    }
+    .s1 {
+        border-right: 1px solid black;
+    }
+    .contenido {
+        background: #d14a4a;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        width: 100%;
+    }
+    .green {
+        color: rgb(21, 255, 21);
+        font-size: 20px;
+    }
+    .red {
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+    }
+    .a {
+        display: grid;
+        grid-column: 1/3;
+    }
+}

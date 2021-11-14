@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>juego - Pokemon</title>
+    <meta name="description" content="juego de pokemon, todos los pokemonos que en existen, adivina el pokemon.">
+    <meta name="keywords" content="pokemon, juegos de pokemon, pikachu, adivina los pokemons, todos los pokemons, juego de pokemon,nombre de los pokemon">
+    <link rel="shortcut icon" href="../../img/icono/pokebola.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Frijole&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../css/pokemon.css">
+</head>
+
+<body>
+    <div class="app">
+
+        <div class="contenido">
+            <div class="gameover" hidden>
+                <form class="goR" autocomplete="off">
+                    <label for="">GAME OVER!</label>
+
+                    <input type="button" class="btn-continuar" value="continuar">
+
+
+
+                </form>
+
+
+            </div>
+            <div class="ingresarData">
+                <form class="intoDataPlayer" autocomplete="off">
+                    <label for="nombre">Nombre del jugador</label>
+                    <input type="text" class="nombre" name="nombre" placeholder="Nombre">
+                    <input type="button" class="btn" value="Iniciar">
+
+
+
+                </form>
+
+            </div>
+
+            <header>
+                <h1 class="tp">juego - Pokemon</h1>
+
+                <hr>
+                <div class="dataPlayer">
+                    <nav class="nave" hidden>
+                        <ul>
+
+                            <li><a href="#">Modos</a>
+                                <ul>
+                                    <li><a href="../pokemon/">Pokemon</a></li>
+                                    <li><a href="../dragon ball/">Dragon Ball</a></li>
+                                    <li><a href="../Naruto/">Naruto</a></li>
+
+
+                                </ul>
+                            </li>
+
+                        </ul>
+                    </nav>
+
+                    <div class="nombreF">jhon</div>
+                    <div class="puntos">100</div>
+
+                </div>
+                <hr>
+            </header>
+            <div class="nombrePokemon"></div>
+
+            <div class="aplication">
+                <div class="s1">
+                    <div class="ss1 sss">
+
+                    </div>
+
+
+                </div>
+                <div class="s2">
+                    <div class="ss2 sss">
+
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="resultados" hidden>
+
+
+            </div>
+        </div>
+    </div>
+
+</body>
+<style>
+    nav li {
+        display: inline-block;
+        width: 150px;
+        height: 30px;
+        padding: 5px 10px;
+        background-color: #000;
+        border: 1px solid #000;
+        text-align: center;
+        color: #fff;
+        position: relative;
+    }
+    
+    nav li:hover {
+        background-color: #fff;
+        color: #000;
+    }
+    
+    nav li>ul {
+        display: none;
+    }
+    
+    nav li:hover>ul {
+        display: block;
+        position: absolute;
+        top: 30px;
+        left: 0px;
+    }
+</style>
+<script src="../../scripts/pokemon.js"></script>
+
+</html>

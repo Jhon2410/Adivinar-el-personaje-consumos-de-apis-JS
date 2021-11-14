@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>adivinar el personaje</title>
+     <meta name="description" content="Este juego consiste en adivinar el personaje de los animes Dragon ball Z,naruto y pokemon , hay dos modos para poner a prueba tus conocimientos sobre los animos y sus personajes ">
+    <meta name="keywords" content="juego,dragon,ball,z,naruto,pokemon,play,dbz,dbs,juegos,games,personajes,dragonballZ, dragon ball super juegos, juego de dragon ball z, personajes de dragon ball z,imagenes de dragon ball z,goku,gohan,sayajin,anderson">
+    <meta name="author" content="jhon anderson">
+      <link rel="shortcut icon" href="img/icono/mainIco1.ico" type="image/x-icon">
+      <meta name="google-site-verification" content="N9IY-b8gF_iG3Cj_6AE4_4ev3PoyBBomPmjYERHzjyU" />
+      <meta property="og:image" content="img/icono/mainIco1.ico" />
+    
+</head>
+
+<body>
+
+
+    <div class="contenido">
+
+        <header class="cabecera">
+            <h1 class="title">adivina los personajes</h1>
+            <hr>
+
+
+        </header>
+
+
+        <div class="options">
+
+            <ul class="list-nav">
+
+                <li class="item-list item1">
+                    <a href="generos/dragon ball/"><img src="img/icono/EsferaDragon.png" alt="dragon ball esfera" class="imagenes"></a>
+                </li>
+                <li class="item-list item2">
+                    <a href="generos/pokemon/"><img src="img/icono/pokebola.png" alt="bola de pokemon" class="imagenes"></a>
+                </li>
+                <li class="item-list item3">
+                    <a href="generos/Naruto/"><img src="img/icono/rinegan.png" alt="ojo rinegan" class="imagenes"></a>
+                </li>
+                <li class="nameGame">Jhon Anderson</li>
+
+
+            </ul>
+
+        </div>
+
+    </div>
+
+
+
+
+
+</body>
+<script>
+    let dbz = document.querySelector(".item1");
+    let pokemon = document.querySelector(".item2");
+    let naruto = document.querySelector(".item3");
+    let nameGame = document.querySelector(".nameGame");
+
+    dbz.addEventListener("mouseover", () => nameGame.innerHTML = "Dragon ball z")
+    pokemon.addEventListener("mouseover", () => nameGame.innerHTML = "Pokemon")
+    naruto.addEventListener("mouseover", () => nameGame.innerHTML = "Naruto")
+</script>
+<style>
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    .contenido {
+        position: absolute;
+        top: 0px;
+        bottom: 0px;
+        width: 100%;
+        background: #667db6;
+        /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        display: flex;
+        align-items: center;
+    }
+    
+    .nameGame {
+        display: grid;
+        grid-column: 1/4;
+        color: white;
+        text-shadow: 1px 1px black;
+        text-align: center;
+        padding: 50px 0px;
+        margin: 10px;
+        font-size: 20px;
+    }
+    
+    .cabecera {
+        position: absolute;
+        top: 0;
+        width: 100%;
+    }
+    
+    .title {
+        text-align: center;
+        color: white;
+        text-shadow: 1px 1px black;
+        padding: 20px 0px;
+    }
+    
+    .options {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 60%;
+        margin: auto;
+    }
+    
+    .item-list:hover {
+        -webkit-transform: scale(1.5);
+        transform: scale(1.5);
+        transition: 0.2s;
+        border: white 8px outset;
+        border-radius: 5%;
+        padding: 20px;
+    }
+    
+    .list-nav {
+        display: grid;
+        grid-template-columns: repeat(3, 33.3%);
+        list-style: none;
+    }
+    
+    .imagenes {
+        width: 60%;
+        display: block;
+        margin: auto;
+    }
+    
+    .imagenes:hover {
+        -webkit-transform: scale(1.5);
+        transform: scale(1.5);
+        transition: 0.2s;
+    }
+      @media (min-width: 700px) {
+        .imagenes {
+            width: 40%;
+            display: block;
+            margin: auto;
+        }
+    }
+</style>
+
+</html>
